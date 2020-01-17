@@ -1,5 +1,12 @@
 let projects = [
   {
+    img: 'img/png/autumn-hills.png',
+    name: 'Autumn Hills Country Club',
+    desc: 'A cloud based web app for a fictional country club. The app is built using Pug (formerly Jade), on top of Node.js and utilizes Express to make requests to capture data which is sent to a MySQL database. The database is hosted through RDS in AWS, and the application is hosted through AWS Elastic Beanstalk.',
+    url: 'http://autumnhills-env.2fpu4vm3xj.us-east-1.elasticbeanstalk.com/',
+    repoLink: 'https://github.com/coreymyster/Autumn-Hills-Country-Club'
+  },
+  {
   img: 'img/png/memory-game-thumbnail.png',
   name: 'Memory Game',
   desc: 'A memory game where you have to match two of the same cards.',
