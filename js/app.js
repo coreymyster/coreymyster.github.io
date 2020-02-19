@@ -1,5 +1,12 @@
 let projects = [
   {
+    img: 'img/png/beer-cellar.png',
+    name: 'Beer Cellar Application',
+    desc: "Note that this is a project that is currently under development for 2020 and is a work in progress. I am a big craft beer fan and there are quite a few beers that I store away in a cellar to age. I have a lot of beers cellared, and realized I needed a way to keep track of them all - hence this application. I am building this in ReactJS and have hosted this project through GitLab and have set up a CI/CD workflow through Amplify in AWS. For now the app uses dummy data but I will eventually connect a DB to store the data.",
+    url: 'https://master.dnng1okzlhe0x.amplifyapp.com/',
+    repoLink: 'https://gitlab.com/coreymyster/beer-cellar/-/tree/masterb'
+  },
+  {
     img: 'img/png/autumn-hills.png',
     name: 'Autumn Hills Country Club',
     desc: 'A cloud based web app for a fictional country club. The app is built using Pug (formerly Jade), on top of Node.js and utilizes Express to make requests to capture data which is sent to a MySQL database. The database is hosted through RDS in AWS, and the application is hosted through AWS Elastic Beanstalk.',
@@ -19,14 +26,14 @@ let projects = [
     desc: 'This website is built for a fictional custom wood furniture building company and was built using Handlebars JS.',
     url: 'projects/furniture/index.html',
     repoLink: 'https://github.com/coreymyster/wood-furniture-website'
-  },
-  {
+  }
+  /*{
     img: 'img/png/recipe-book-thumbnail.png',
     name: 'Recipe Book',
     desc: 'A recipe book built with PHP. The focus here is functionality and not design. Test credentials are provided on the website.',
     url: 'projects/recipe-book/index.php',
     repoLink: 'https://github.com/coreymyster/recipe-book'
-  }
+  }*/
 ]
 
 let projectItem = document.querySelector('.projectItem')
