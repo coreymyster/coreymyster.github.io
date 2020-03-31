@@ -44,7 +44,7 @@ let projectItem = document.querySelector(".projectItem");
 for (let i = 0; i <= projects.length; i++) {
   projectItem.innerHTML += `
     <span>
-      <p><a href="${projects[i].url}"><img class="thumbnail" src="${projects[i].img}"></a></p>
+      <p><a href="${projects[i].url}"><img class="thumbnail" src="${projects[i].img}" alt="${projects[i].name}"></a></p>
       <p>${projects[i].name}</p>
       <p>${projects[i].desc}</p>
       <p class="links"><a href="${projects[i].url}">Link</a>  |  <a href="${projects[i].repoLink}" target="_blank"><img src="img/svg/github-icon.svg"></a></p>
