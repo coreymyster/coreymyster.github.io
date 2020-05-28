@@ -3,8 +3,8 @@ let projects = [
     img: "img/png/beer-cellar.png",
     name: "Beer Cellar Application",
     desc:
-      "Note that this is a project that is under development for 2020 and is currently a work in progress. I am a big craft beer fan and there are quite a few beers that I store away in a cellar to age. I have a lot of beers cellared, and realized I needed a way to keep track of them all - hence this application. I am building this in ReactJS and have hosted this project through GitLab and have set up a CI/CD workflow through Amplify in AWS. For now the app uses dummy data but I will eventually connect a DB to store the data.",
-    url: "https://master.dnng1okzlhe0x.amplifyapp.com/",
+      "Note that this is a project that is under development for 2020 and is currently a work in progress. I am a big craft beer fan and there are quite a few beers that I store away in a cellar to age. I have a lot of beers cellared, and realized I needed a way to keep track of them all - hence this application. I am building this in ReactJS and have hosted this project through GitLab and have set up a CI/CD workflow through Amplify in AWS. The app stores data in a MongoDB database and allows for CRUD operations to be performed within the app.",
+    url: "https://www.sudsandsips.com/",
     repoLink: "https://gitlab.com/coreymyster/beer-cellar"
   },
   {
